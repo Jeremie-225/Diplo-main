@@ -1,0 +1,19 @@
+node_modules/
+dist/
+dist-ssr/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+.vite/
+.cache/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.local
+
+# Decrypted supplier workbook — never commit; regenerate via
+# `node scripts/decrypt-supplier-xls.mjs` on machines that have the password.
+# The encrypted source lives in claude/docs/ and IS committed.
+claude/docs/*.DECRYPTED.xlsx

@@ -1,0 +1,307 @@
+/* =====================================================================
+   Tailwind base + project-wide styles.
+   ===================================================================== */
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+@import '@fontsource/inter/800.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------------
+   CSS custom properties — duplicates of the Tailwind theme so we can use
+   them inside arbitrary CSS (e.g. gradients in @layer components).
+   --------------------------------------------------------------------- */
+:root {
+  --color-primary: #1e3a8a;
+  --color-primary-light: #3b82f6;
+  --color-primary-dark: #172554;
+  --color-accent: #fcd34d;
+  --color-accent-warm: #fbbf24;
+  --color-neutral-50: #f8fafc;
+  --color-neutral-100: #f1f5f9;
+  --color-neutral-700: #334155;
+  --color-neutral-900: #0f172a;
+  --color-success: #10b981;
+  --color-error: #ef4444;
+}
+
+/* ---------------------------------------------------------------------
+   Base
+   --------------------------------------------------------------------- */
+@layer base {
+  html {
+    /* Smooth scroll for in-page anchor links (e.g. "scroll to next section").
+       The scroll-behavior is honoured by browsers on anchor jumps and
+       window.scrollTo({ behavior: 'smooth' }) calls — about ~600ms by default. */
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-white text-neutral-700 font-sans;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-neutral-900 font-bold tracking-tight text-white;
+  }
+
+  /* Visible, branded focus ring for keyboard users. 2px ring + 2px offset
+     gives clear visibility against any background per the spec. */
+  *:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px var(--color-primary-light);
+    border-radius: 4px;
+  }
+
+  /* Selection highlight uses the brand blue → white text combo. */
+  ::selection {
+    background-color: var(--color-primary);
+    color: #ffffff;
+  }
+}
+
+/* ---------------------------------------------------------------------
+   Reusable component classes
+   --------------------------------------------------------------------- */
+@layer components {
+  .gradient-primary {
+    background-image: linear-gradient(
+      135deg,
+      var(--color-primary) 0%,
+      var(--color-primary-light) 100%
+    );
+  }
+
+  .gradient-hero {
+    background-image:
+      radial-gradient(circle at 20% 20%, rgba(252, 211, 77, 0.15), transparent 40%),
+      radial-gradient(circle at 80% 70%, rgba(59, 130, 246, 0.30), transparent 50%),
+      linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #1e40af 100%);
+  }
+
+  .gradient-yellow {
+    background-image: linear-gradient(135deg, #fcd34d 0%, #fbbf24 100%);
+  }
+
+  /* Hover lift utility — small translate + softer shadow growth */
+  .hover-lift {
+    @apply transition-all duration-300;
+  }
+  .hover-lift:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 32px -8px rgba(15, 23, 42, 0.18);
+  }
+
+  /* News HTML content styling — applied to <div dangerouslySetInnerHTML> */
+  .prose-news {
+    @apply text-neutral-700 leading-relaxed;
+  }
+  .prose-news p {
+    @apply mb-4;
+  }
+  .prose-news p + p {
+    @apply mt-4;
+  }
+  .prose-news h2 {
+    @apply text-2xl mt-8 mb-3;
+  }
+  .prose-news h3 {
+    @apply text-xl mt-6 mb-2;
+  }
+  .prose-news ul {
+    @apply list-disc pl-6 mb-4;
+  }
+  .prose-news a {
+    @apply text-primary-light underline underline-offset-2;
+  }
+
+  /* Subtle SVG grid overlay used on the hero background. */
+  .bg-grid-overlay {
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+}
+
+/* ---------------------------------------------------------------------
+   Utilities
+   --------------------------------------------------------------------- */
+@layer utilities {
+  /* Hide scrollbars but keep scrolling — used on horizontal product carousel */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* CSS-driven cursor hide on desktop pointer devices.
+     Pair with <CustomCursor /> for the JS-driven dot+ring. */
+  @media (hover: hover) and (pointer: fine) {
+    html.has-custom-cursor,
+    html.has-custom-cursor * {
+      cursor: none !important;
+    }
+    html.has-custom-cursor a,
+    html.has-custom-cursor button {
+      cursor: none !important;
+    }
+  }
+}
+
+/* =====================================================================
+   Keyframe animations — used both via Tailwind utilities (config) and
+   directly via class names below.
+   ===================================================================== */
+
+/* Skeleton shimmer used by Suspense fallback + LazyImage placeholder */
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    #f1f5f9 0%,
+    #e2e8f0 50%,
+    #f1f5f9 100%
+  );
+  background-size: 1000px 100%;
+  animation: shimmer 2s infinite linear;
+}
+
+@keyframes shimmer {
+  0% { background-position: -1000px 0; }
+  100% { background-position: 1000px 0; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+
+/* Concentric pulse ring — used behind testimonial avatars etc. */
+@keyframes pulse-ring {
+  0% { transform: scale(0.8); opacity: 0.8; }
+  80% { transform: scale(1.6); opacity: 0; }
+  100% { transform: scale(1.6); opacity: 0; }
+}
+
+.pulse-ring {
+  animation: pulse-ring 2.4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+/* Marquee — infinite horizontal slide. We translate by -50% of the width
+   because the parent contains *two* copies of the content; once the first
+   copy reaches -50% the second copy is in its starting position, giving
+   a seamless loop. Hover pauses the animation. */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee {
+  animation: marquee 30s linear infinite;
+}
+
+.marquee-paused:hover .marquee,
+.marquee-paused:focus-within .marquee {
+  animation-play-state: paused;
+}
+
+/* Slow drift for hero background blobs. Shared with framer-motion fallback. */
+@keyframes drift-slow {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(20px, -16px); }
+}
+
+/* Bouncing scroll-down chevron */
+@keyframes scroll-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+}
+
+.scroll-bounce {
+  animation: scroll-bounce 2s ease-in-out infinite;
+}
+
+/* =====================================================================
+   Reduced-motion accessibility — disable decorative animations entirely
+   for users who prefer reduced motion. We keep functional transitions
+   short but cancel infinite/marquee/bouncy effects.
+   ===================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .skeleton,
+  .marquee,
+  .pulse-ring,
+  .scroll-bounce {
+    animation: none !important;
+  }
+}
+
+/* =====================================================================
+   CurvyProductSlider — homepage hero marquee
+   ===================================================================== */
+.curvy-slider__viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+.curvy-slider__track {
+  display: flex;
+  gap: 24px;
+  width: max-content;
+  padding: 28px 0;
+  list-style: none;
+  margin: 0;
+  /* The track is exactly 2× a single product set, so translating by -50%
+     brings copy #2 into the position copy #1 started in — seamless loop. */
+  animation: curvy-marquee var(--loop, 36s) linear infinite;
+  will-change: transform;
+}
+
+.curvy-slider:hover .curvy-slider__track,
+.curvy-slider:focus-within .curvy-slider__track {
+  animation-play-state: paused;
+}
+
+.curvy-slider__card {
+  flex: 0 0 auto;
+  width: 180px;
+  /* Each card carries its own --dy so the wave shape is bake-in static. */
+  transform: translateY(var(--dy, 0px));
+}
+
+@media (min-width: 640px) {
+  .curvy-slider__card { width: 220px; }
+}
+
+@keyframes curvy-marquee {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(-50%, 0, 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .curvy-slider__track {
+    animation: none !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 16px;
+  }
+  .curvy-slider__card {
+    transform: none !important;
+  }
+}

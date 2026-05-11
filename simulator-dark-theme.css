@@ -1,0 +1,100 @@
+/**
+ * Simulator theme — light premium edition.
+ *
+ * Filename kept as `simulator-dark-theme.css` for backwards compatibility
+ * with existing imports. Wrapper class is still `.simulator-dark-theme`
+ * so component styles don't need to chase a rename — but the *palette*
+ * is now light (white surfaces, slate borders, navy primary, gold accents)
+ * to match the rest of the marketing site.
+ *
+ * Design language:
+ *   • Surfaces: white on a soft slate background (--sim-bg = slate-50)
+ *   • Structural accent: navy primary (#1E3A8A) — eyebrow labels,
+ *     active chips, ring tracks, focus rings
+ *   • CTA / highlight: brand gold (#FCD34D) — Get Quote, Fill-to buttons,
+ *     "in load" badge
+ *   • Status: same green / amber / orange / red traffic light for fill %
+ */
+
+.simulator-dark-theme {
+  /* Surfaces */
+  --sim-bg:        #F8FAFC;   /* slate-50  — page background */
+  --sim-surface:   #FFFFFF;   /* white     — card backgrounds */
+  --sim-surface-2: #F1F5F9;   /* slate-100 — nested elements, inputs */
+  --sim-border:    #E2E8F0;   /* slate-200 — subtle borders */
+
+  /* Typography */
+  --sim-text-primary:   #0F172A;   /* slate-900 — headings, values */
+  --sim-text-secondary: #475569;   /* slate-600 — labels, sub-copy */
+  --sim-text-muted:     #94A3B8;   /* slate-400 — placeholders, disabled */
+
+  /* Brand */
+  --sim-primary:        #1E3A8A;   /* navy     — structural accent */
+  --sim-primary-light:  #3B82F6;   /* blue-500 — interactive highlights */
+  --sim-primary-soft:   rgba(30, 58, 138, 0.10); /* navy bg tint */
+  --sim-gold:           #FCD34D;   /* yellow-400 — CTA / highlight */
+  --sim-gold-dim:       #D97706;   /* amber-600 — gold border / dimmed */
+  --sim-gold-soft:      rgba(252, 211, 77, 0.15); /* gold bg tint */
+
+  /* Status palette (same hues, work on light too) */
+  --sim-ok:           #10B981;   /* 0–74 % */
+  --sim-warn:         #F59E0B;   /* 75–89 % */
+  --sim-danger-light: #F97316;   /* 90–99 % */
+  --sim-danger:       #EF4444;   /* 100 % */
+
+  background: var(--sim-bg);
+  color: var(--sim-text-primary);
+}
+
+/* Webkit scrollbar polish — only inside the simulator. */
+.simulator-dark-theme ::-webkit-scrollbar { width: 6px; height: 6px; }
+.simulator-dark-theme ::-webkit-scrollbar-track { background: var(--sim-bg); }
+.simulator-dark-theme ::-webkit-scrollbar-thumb {
+  background: var(--sim-border);
+  border-radius: 3px;
+}
+.simulator-dark-theme ::-webkit-scrollbar-thumb:hover {
+  background: var(--sim-primary);
+}
+
+/* Native form-control reset so inputs/selects inherit theme colors. */
+.simulator-dark-theme input::placeholder,
+.simulator-dark-theme textarea::placeholder {
+  color: var(--sim-text-muted);
+}
+
+/* Ring pulse for the gauge at 100 % fill. */
+@keyframes sim-pulse-ring {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.55; }
+}
+.simulator-dark-theme .sim-ring-pulse {
+  animation: sim-pulse-ring 1.6s ease-in-out infinite;
+}
+
+/* Card hover lift — subtle navy shadow rather than gold glow. */
+.simulator-dark-theme .sim-card-hover {
+  transition: transform 200ms ease, box-shadow 200ms ease,
+              border-color 200ms ease;
+}
+.simulator-dark-theme .sim-card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(30, 58, 138, 0.10);
+}
+
+/* Print / PDF export — neutralise everything for screenshots. */
+@media print {
+  .simulator-dark-theme {
+    background: white !important;
+    color: black !important;
+  }
+}
+
+/* Reduced motion — disable ring pulse + transitions. */
+@media (prefers-reduced-motion: reduce) {
+  .simulator-dark-theme .sim-ring-pulse { animation: none; }
+  .simulator-dark-theme * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

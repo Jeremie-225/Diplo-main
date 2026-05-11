@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-05-07T17:19:47.597Z",
+  "sources": {
+    "stocks": "claude\\docs\\ENCLAVE STOCKS.xlsx",
+    "supplier": "claude\\docs\\DIPLO FZE - PRODUCT OF DIPLO AND SUPPLIERS.DECRYPTED.xlsx"
+  },
+  "counts": {
+    "stocks_skus": 201,
+    "stocks_with_dims": 103,
+    "diplo_master": 190,
+    "vilniaus_rich": 31
+  }
+}

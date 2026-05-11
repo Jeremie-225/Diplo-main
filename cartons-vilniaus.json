@@ -1,0 +1,1025 @@
+{
+  "el galipote dark rum": {
+    "raw_name": "El Galipote Dark Rum",
+    "brand": "El Galipote",
+    "ean": "4770053240659",
+    "bottle": {
+      "netto_l": 0.7,
+      "brutto_kg": 1.476,
+      "width_cm": 9.4,
+      "length_cm": 9.4,
+      "height_cm": 21.3
+    },
+    "carton": {
+      "units_per_carton": 6,
+      "weight_kg": 9.003,
+      "length_cm": 19.1,
+      "width_cm": 28.5,
+      "height_cm": 23.2,
+      "volume_m3": 0.01263
+    },
+    "pallet": {
+      "cases_per_layer": 16,
+      "units_per_layer": 96,
+      "layers": 6,
+      "cases_per_pallet": 96,
+      "units_per_pallet": 576,
+      "weight_kg": 889.288
+    },
+    "truck": {
+      "pallets_per_truck": 25,
+      "bottles_per_truck": 14400,
+      "total_weight_kg": 22232.2
+    }
+  },
+  "el galipote white rum": {
+    "raw_name": "El Galipote White Rum",
+    "brand": "El Galipote",
+    "ean": "4770053240635",
+    "bottle": {
+      "netto_l": 0.7,
+      "brutto_kg": 1.478,
+      "width_cm": 9.4,
+      "length_cm": 9.4,
+      "height_cm": 21.3
+    },
+    "carton": {
+      "units_per_carton": 6,
+      "weight_kg": 9.015,
+      "length_cm": 19.1,
+      "width_cm": 28.5,
+      "height_cm": 23.2,
+      "volume_m3": 0.01263
+    },
+    "pallet": {
+      "cases_per_layer": 16,
+      "units_per_layer": 96,
+      "layers": 6,
+      "cases_per_pallet": 96,
+      "units_per_pallet": 576,
+      "weight_kg": 890.44
+    },
+    "truck": {
+      "pallets_per_truck": 25,
+      "bottles_per_truck": 14400,
+      "total_weight_kg": 22261
+    }
+  },
+  "spirit drink el galipote spiced": {
+    "raw_name": "Spirit drink El Galipote Spiced",
+    "brand": "El Galipote",
+    "ean": "4770053240819",
+    "bottle": {
+      "netto_l": 0.7,
+      "brutto_kg": 1.497,
+      "width_cm": 9.4,
+      "length_cm": 9.4,
+      "height_cm": 21.3
+    },
+    "carton": {
+      "units_per_carton": 6,
+      "weight_kg": 9.129,
+      "length_cm": 19.1,
+      "width_cm": 28.5,
+      "height_cm": 23.2,
+      "volume_m3": 0.01263
+    },
+    "pallet": {
+      "cases_per_layer": 16,
+      "units_per_layer": 96,
+      "layers": 6,
+      "cases_per_pallet": 96,
+      "units_per_pallet": 576,
+      "weight_kg": 901.384
+    },
+    "truck": {
+      "pallets_per_truck": 24,
+      "bottles_per_truck": 13824,
+      "total_weight_kg": 21633.216
+    }
+  },
+  "spirit drink el galipote pineapple": {
+    "raw_name": "Spirit drink El Galipote Pineapple",
+    "brand": "El Galipote",
+    "ean": "4770053241533",
+    "bottle": {
+      "netto_l": 0.7,
+      "brutto_kg": 1.495,
+      "width_cm": 9.4,
+      "length_cm": 9.4,
+      "height_cm": 21.3
+    },
+    "carton": {
+      "units_per_carton": 6,
+      "weight_kg": 9.117,
+      "length_cm": 19.1,
+      "width_cm": 28.5,
+      "height_cm": 23.2,
+      "volume_m3": 0.01263
+    },
+    "pallet": {
+      "cases_per_layer": 16,
+      "units_per_layer": 96,
+      "layers": 6,
+      "cases_per_pallet": 96,
+      "units_per_pallet": 576,
+      "weight_kg": 900.232
+    },
+    "truck": {
+      "pallets_per_truck": 25,
+      "bottles_per_truck": 14400,
+      "total_weight_kg": 22505.8
+    }
+  },
+  "el galipote black spiced new": {
+    "raw_name": "El Galipote Black Spiced NEW",
+    "brand": "El Galipote",
+    "ean": "4770053242592",
+    "bottle": {
+      "netto_l": 0.7,
+      "brutto_kg": null,
+      "width_cm": 9.4,
+      "length_cm": 9.4,
+      "height_cm": 21.3
+    },
+    "carton": {
+      "units_per_carton": 6,
+      "weight_kg": null,
+      "length_cm": 19.1,
+      "width_cm": 28.5,
+      "height_cm": 23.2,
+      "volume_m3": 0.01263
+    },
+    "pallet": {
+      "cases_per_layer": 16,
+      "units_per_layer": 96,
+      "layers": 6,
+      "cases_per_pallet": 96,
+      "units_per_pallet": 576,
+      "weight_kg": null
+    },
+    "truck": {
+      "pallets_per_truck": 25,
+      "bottles_per_truck": 14400,
+      "total_weight_kg": null
+    }
+  },
+  "spirit drink el galipote pink cherry": {
+    "raw_name": "Spirit drink El Galipote Pink Cherry",
+    "brand": "El Galipote",
+    "ean": "4770053242479",
+    "bottle": {
+      "netto_l": 0.7,
+      "brutto_kg": 1.485,
+      "width_cm": 9.4,
+      "length_cm": 9.4,
+      "height_cm": 21.3
+    },
+    "carton": {
+      "units_per_carton": 6,
+      "weight_kg": 8.943,
+      "length_cm": 19.1,
+      "width_cm": 28.5,
+      "height_cm": 23.2,
+      "volume_m3": 0.01263
+    },
+    "pallet": {
+      "cases_per_layer": 16,
+      "units_per_layer": 96,
+      "layers": 6,
+      "cases_per_pallet": 96,
+      "units_per_pallet": 576,
+      "weight_kg": 883.528
+    },
+    "truck": {
+      "pallets_per_truck": 25,
+      "bottles_per_truck": 14400,
+      "total_weight_kg": 22088.2
+    }
+  },
+  "liqueur el galipote coconut": {
+    "raw_name": "Liqueur El Galipote Coconut",
+    "brand": "El Galipote",
+    "ean": "4770053241601",
+    "bottle": {
+      "netto_l": 0.7,
+      "brutto_kg": 1.531,
+      "width_cm": 9.4,
+      "length_cm": 9.4,
+      "height_cm": 21.3
+    },
+    "carton": {
+      "units_per_carton": 6,
+      "weight_kg": 9.333,
+      "length_cm": 19.1,
+      "width_cm": 28.5,
+      "height_cm": 23.2,
+      "volume_m3": 0.01263
+    },
+    "pallet": {
+      "cases_per_layer": 16,
+      "units_per_layer": 96,
+      "layers": 6,
+      "cases_per_pallet": 96,
+      "units_per_pallet": 576,
+      "weight_kg": 920.968
+    },
+    "truck": {
+      "pallets_per_truck": 24,
+      "bottles_per_truck": 13824,
+      "total_weight_kg": 22103.232
+    }
+  },
+  "thorn gin": {
+    "raw_name": "Thorn Gin",
+    "brand": "Thorn",
+    "ean": "4770053240673",
+    "bottle": {
+      "netto_l": 0.7,
+      "brutto_kg": 1.453,
+      "width_cm": 9.4,
+      "length_cm": 9.4,
+      "height_cm": 21.3
+    },
+    "carton": {
+      "units_per_carton": 6,
+      "weight_kg": 8.865,
+      "length_cm": 19.1,
+      "width_cm": 28.5,
+      "height_cm": 23.2,
+      "volume_m3": 0.01263
+    },
+    "pallet": {
+      "cases_per_layer": 16,
+      "units_per_layer": 96,
+      "layers": 6,
+      "cases_per_pallet": 96,
+      "units_per_pallet": 576,
+      "weight_kg": 876.04
+    },
+    "truck": {
+      "pallets_per_truck": 25,
+      "bottles_per_truck": 14400,
+      "total_weight_kg": 21901
+    }
+  },
+  "thorn pink gin": {
+    "raw_name": "Thorn Pink Gin",
+    "brand": "Thorn",
+    "ean": "4770053240796",
+    "bottle": {
+      "netto_l": 0.7,
+      "brutto_kg": 1.465,
+      "width_cm": 9.4,
+      "length_cm": 9.4,
+      "height_cm": 21.3
+    },
+    "carton": {
+      "units_per_carton": 6,
+      "weight_kg": 8.937,
+      "length_cm": 19.1,
+      "width_cm": 28.5,
+      "height_cm": 23.2,
+      "volume_m3": 0.01263
+    },
+    "pallet": {
+      "cases_per_layer": 16,
+      "units_per_layer": 96,
+      "layers": 6,
+      "cases_per_pallet": 96,
+      "units_per_pallet": 576,
+      "weight_kg": 882.952
+    },
+    "truck": {
+      "pallets_per_truck": 25,
+      "bottles_per_truck": 14400,
+      "total_weight_kg": 22073.8
+    }
+  },
+  "missed call london dry gin new": {
+    "raw_name": "Missed Call London Dry Gin NEW",
+    "brand": "Missed Call",
+    "ean": "4770053242172",
+    "bottle": {
+      "netto_l": 0.7,
+      "brutto_kg": 1.136,
+      "width_cm": 9.2,
+      "length_cm": 9.2,
+      "height_cm": 17.8
+    },
+    "carton": {
+      "units_per_carton": 6,
+      "weight_kg": 6.955,
+      "length_cm": 19.4,
+      "width_cm": 28.8,
+      "height_cm": 20.4,
+      "volume_m3": 0.0114
+    },
+    "pallet": {
+      "cases_per_layer": 16,
+      "units_per_layer": 96,
+      "layers": 7,
+      "cases_per_pallet": 112,
+      "units_per_pallet": 672,
+      "weight_kg": 803.96
+    },
+    "truck": {
+      "pallets_per_truck": 27,
+      "bottles_per_truck": 18144,
+      "total_weight_kg": 21706.920000000002
+    }
+  },
+  "missed call strawberry gin new": {
+    "raw_name": "Missed Call Strawberry Gin NEW",
+    "brand": "Missed Call",
+    "ean": "4770053242189",
+    "bottle": {
+      "netto_l": 0.7,
+      "brutto_kg": 1.149,
+      "width_cm": 9.2,
+      "length_cm": 9.2,
+      "height_cm": 17.8
+    },
+    "carton": {
+      "units_per_carton": 6,
+      "weight_kg": 7.033,
+      "length_cm": 19.4,
+      "width_cm": 28.8,
+      "height_cm": 20.4,
+      "volume_m3": 0.0114
+    },
+    "pallet": {
+      "cases_per_layer": 16,
+      "units_per_layer": 96,
+      "layers": 7,
+      "cases_per_pallet": 112,
+      "units_per_pallet": 672,
+      "weight_kg": 812.696
+    },
+    "truck": {
+      "pallets_per_truck": 27,
+      "bottles_per_truck": 18144,
+      "total_weight_kg": 21942.792
+    }
+  },
+  "obeliu crafted vodka": {
+    "raw_name": "Obeliu Crafted Vodka",
+    "brand": "Obeliu Crafted",
+    "ean": "4770053239820",
+    "bottle": {
+      "netto_l": 0.7,
+      "brutto_kg": 1.255,
+      "width_cm": 9.4,
+      "length_cm": 9.4,
+      "height_cm": 23
+    },
+    "carton": {
+      "units_per_carton": 6,
+      "weight_kg": 7.683,
+      "length_cm": 19.1,
+      "width_cm": 28.5,
+      "height_cm": 24.9,
+      "volume_m3": 0.01355
+    },
+    "pallet": {
+      "cases_per_layer": 16,
+      "units_per_layer": 96,
+      "layers": 6,
+      "cases_per_pallet": 96,
+      "units_per_pallet": 576,
+      "weight_kg": 762.568
+    },
+    "truck": {
+      "pallets_per_truck": 29,
+      "bottles_per_truck": 16704,
+      "total_weight_kg": 22114.471999999998
+    }
+  },
+  "seven senses nuts spirit drink": {
+    "raw_name": "Seven Senses Nuts Spirit Drink",
+    "brand": "Seven Senses",
+    "ean": "4770053241519",
+    "bottle": {
+      "netto_l": 0.5,
+      "brutto_kg": 0.928,
+      "width_cm": 8,
+      "length_cm": 5.7,
+      "height_cm": 25
+    },
+    "carton": {
+      "units_per_carton": 9,
+      "weight_kg": 8.482,
+      "length_cm": 18.1,
+      "width_cm": 25.3,
+      "height_cm": 25.8,
+      "volume_m3": 0.01181
+    },
+    "pallet": {
+      "cases_per_layer": 19,
+      "units_per_layer": 171,
+      "layers": 5,
+      "cases_per_pallet": 95,
+      "units_per_pallet": 855,
+      "weight_kg": 830.79
+    },
+    "truck": {
+      "pallets_per_truck": 27,
+      "bottles_per_truck": 23085,
+      "total_weight_kg": 22431.329999999998
+    }
+  },
+  "seven senses herbs liqueur": {
+    "raw_name": "Seven Senses Herbs Liqueur",
+    "brand": "Seven Senses",
+    "ean": "4770053241526",
+    "bottle": {
+      "netto_l": 0.5,
+      "brutto_kg": 0.967,
+      "width_cm": 8,
+      "length_cm": 5.7,
+      "height_cm": 25
+    },
+    "carton": {
+      "units_per_carton": 9,
+      "weight_kg": 8.833,
+      "length_cm": 18.1,
+      "width_cm": 25.3,
+      "height_cm": 25.8,
+      "volume_m3": 0.01181
+    },
+    "pallet": {
+      "cases_per_layer": 19,
+      "units_per_layer": 171,
+      "layers": 5,
+      "cases_per_pallet": 95,
+      "units_per_pallet": 855,
+      "weight_kg": 864.135
+    },
+    "truck": {
+      "pallets_per_truck": 26,
+      "bottles_per_truck": 22230,
+      "total_weight_kg": 22467.51
+    }
+  },
+  "barska premium vodka": {
+    "raw_name": "Barska Premium Vodka",
+    "brand": "Barska",
+    "ean": "4770053235570",
+    "bottle": {
+      "netto_l": 0.5,
+      "brutto_kg": 0.917,
+      "width_cm": 7.8,
+      "length_cm": 5.9,
+      "height_cm": 26.4
+    },
+    "carton": {
+      "units_per_carton": 12,
+      "weight_kg": 11.177,
+      "length_cm": 19.1,
+      "width_cm": 32.7,
+      "height_cm": 27.5,
+      "volume_m3": 0.01718
+    },
+    "pallet": {
+      "cases_per_layer": 14,
+      "units_per_layer": 168,
+      "layers": 5,
+      "cases_per_pallet": 70,
+      "units_per_pallet": 840,
+      "weight_kg": 807.39
+    },
+    "truck": {
+      "pallets_per_truck": 27,
+      "bottles_per_truck": 22680,
+      "total_weight_kg": 21799.53
+    }
+  },
+  "barska classic vodka": {
+    "raw_name": "Barska Classic Vodka",
+    "brand": "Barska",
+    "ean": "700118828274",
+    "bottle": {
+      "netto_l": 0.1,
+      "brutto_kg": 0.213,
+      "width_cm": 6.1,
+      "length_cm": 2.9,
+      "height_cm": 12.7
+    },
+    "carton": {
+      "units_per_carton": 30,
+      "weight_kg": 6.512,
+      "length_cm": 18.2,
+      "width_cm": 32.4,
+      "height_cm": 13.9,
+      "volume_m3": 0.0082
+    },
+    "pallet": {
+      "cases_per_layer": 14,
+      "units_per_layer": 420,
+      "layers": 8,
+      "cases_per_pallet": 112,
+      "units_per_pallet": 3360,
+      "weight_kg": 754.344
+    },
+    "truck": {
+      "pallets_per_truck": 29,
+      "bottles_per_truck": 97440,
+      "total_weight_kg": 21875.976000000002
+    }
+  },
+  "barska plum spirit drink": {
+    "raw_name": "Barska & Plum Spirit Drink",
+    "brand": "Barska",
+    "ean": "4770053238588",
+    "bottle": {
+      "netto_l": 0.5,
+      "brutto_kg": 0.87,
+      "width_cm": 6.9,
+      "length_cm": 6.9,
+      "height_cm": 25.8
+    },
+    "carton": {
+      "units_per_carton": 12,
+      "weight_kg": 10.62,
+      "length_cm": 21.3,
+      "width_cm": 28.3,
+      "height_cm": 26.6,
+      "volume_m3": 0.01603
+    },
+    "pallet": {
+      "cases_per_layer": 14,
+      "units_per_layer": 168,
+      "layers": 5,
+      "cases_per_pallet": 70,
+      "units_per_pallet": 840,
+      "weight_kg": 768.4
+    },
+    "truck": {
+      "pallets_per_truck": 29,
+      "bottles_per_truck": 24360,
+      "total_weight_kg": 22283.6
+    }
+  },
+  "barska lemon spirit drink": {
+    "raw_name": "Barska & Lemon Spirit Drink",
+    "brand": "Barska",
+    "ean": "4770053238601",
+    "bottle": {
+      "netto_l": 0.5,
+      "brutto_kg": 0.87,
+      "width_cm": 6.9,
+      "length_cm": 6.9,
+      "height_cm": 25.8
+    },
+    "carton": {
+      "units_per_carton": 12,
+      "weight_kg": 10.62,
+      "length_cm": 21.3,
+      "width_cm": 28.3,
+      "height_cm": 26.6,
+      "volume_m3": 0.01603
+    },
+    "pallet": {
+      "cases_per_layer": 14,
+      "units_per_layer": 168,
+      "layers": 5,
+      "cases_per_pallet": 70,
+      "units_per_pallet": 840,
+      "weight_kg": 768.4
+    },
+    "truck": {
+      "pallets_per_truck": 29,
+      "bottles_per_truck": 24360,
+      "total_weight_kg": 22283.6
+    }
+  },
+  "barska blackcurrant": {
+    "raw_name": "Barska & Blackcurrant",
+    "brand": "Barska",
+    "ean": "4770053239516",
+    "bottle": {
+      "netto_l": 0.5,
+      "brutto_kg": 0.87,
+      "width_cm": 6.9,
+      "length_cm": 6.9,
+      "height_cm": 25.8
+    },
+    "carton": {
+      "units_per_carton": 12,
+      "weight_kg": 10.62,
+      "length_cm": 21.3,
+      "width_cm": 28.3,
+      "height_cm": 26.6,
+      "volume_m3": 0.01603
+    },
+    "pallet": {
+      "cases_per_layer": 14,
+      "units_per_layer": 168,
+      "layers": 5,
+      "cases_per_pallet": 70,
+      "units_per_pallet": 840,
+      "weight_kg": 768.4
+    },
+    "truck": {
+      "pallets_per_truck": 29,
+      "bottles_per_truck": 24360,
+      "total_weight_kg": 22283.6
+    }
+  },
+  "barska cranberry": {
+    "raw_name": "Barska & Cranberry",
+    "brand": "Barska",
+    "ean": "TBC",
+    "bottle": {
+      "netto_l": 0.5,
+      "brutto_kg": 0.87,
+      "width_cm": 6.9,
+      "length_cm": 6.9,
+      "height_cm": 25.8
+    },
+    "carton": {
+      "units_per_carton": 12,
+      "weight_kg": 10.62,
+      "length_cm": 21.3,
+      "width_cm": 28.3,
+      "height_cm": 26.6,
+      "volume_m3": 0.01603
+    },
+    "pallet": {
+      "cases_per_layer": 14,
+      "units_per_layer": 168,
+      "layers": 5,
+      "cases_per_pallet": 70,
+      "units_per_pallet": 840,
+      "weight_kg": 768.4
+    },
+    "truck": {
+      "pallets_per_truck": 25,
+      "bottles_per_truck": 21000,
+      "total_weight_kg": 19210
+    }
+  },
+  "barska quince": {
+    "raw_name": "Barska & Quince",
+    "brand": "Barska",
+    "ean": "TBC",
+    "bottle": {
+      "netto_l": 0.5,
+      "brutto_kg": 0.87,
+      "width_cm": 6.9,
+      "length_cm": 6.9,
+      "height_cm": 25.8
+    },
+    "carton": {
+      "units_per_carton": 12,
+      "weight_kg": 10.62,
+      "length_cm": 21.3,
+      "width_cm": 28.3,
+      "height_cm": 26.6,
+      "volume_m3": 0.01603
+    },
+    "pallet": {
+      "cases_per_layer": 14,
+      "units_per_layer": 168,
+      "layers": 5,
+      "cases_per_pallet": 70,
+      "units_per_pallet": 840,
+      "weight_kg": 768.4
+    },
+    "truck": {
+      "pallets_per_truck": 25,
+      "bottles_per_truck": 21000,
+      "total_weight_kg": 19210
+    }
+  },
+  "admiral vodka": {
+    "raw_name": "Admiral Vodka",
+    "brand": "Admiral",
+    "ean": "4770053222198",
+    "bottle": {
+      "netto_l": 0.7,
+      "brutto_kg": 1.007,
+      "width_cm": 7.4,
+      "length_cm": 7.4,
+      "height_cm": 27.9
+    },
+    "carton": {
+      "units_per_carton": 12,
+      "weight_kg": null,
+      "length_cm": 22.5,
+      "width_cm": 30.2,
+      "height_cm": 28.3,
+      "volume_m3": 0.01923
+    },
+    "pallet": {
+      "cases_per_layer": 12,
+      "units_per_layer": 144,
+      "layers": 6,
+      "cases_per_pallet": 60,
+      "units_per_pallet": 720,
+      "weight_kg": null
+    },
+    "truck": {
+      "pallets_per_truck": 25,
+      "bottles_per_truck": 18000,
+      "total_weight_kg": null
+    }
+  },
+  "admiral gin": {
+    "raw_name": "Admiral Gin",
+    "brand": "Admiral",
+    "ean": "4770053242462",
+    "bottle": {
+      "netto_l": 1,
+      "brutto_kg": 1.571,
+      "width_cm": 9.6,
+      "length_cm": 7.3,
+      "height_cm": 30.3
+    },
+    "carton": {
+      "units_per_carton": 9,
+      "weight_kg": 14.441,
+      "length_cm": 23.4,
+      "width_cm": 29.7,
+      "height_cm": 32.1,
+      "volume_m3": 0.02231
+    },
+    "pallet": {
+      "cases_per_layer": 13,
+      "units_per_layer": 117,
+      "layers": 4,
+      "cases_per_pallet": 52,
+      "units_per_pallet": 468,
+      "weight_kg": 775.932
+    },
+    "truck": {
+      "pallets_per_truck": 28,
+      "bottles_per_truck": 13104,
+      "total_weight_kg": 21726.096
+    }
+  },
+  "barska lemon vodka": {
+    "raw_name": "Barska Lemon Vodka",
+    "brand": "Barska",
+    "ean": null,
+    "bottle": {
+      "netto_l": 0.2,
+      "brutto_kg": null,
+      "width_cm": null,
+      "length_cm": null,
+      "height_cm": null
+    },
+    "carton": {
+      "units_per_carton": null,
+      "weight_kg": null,
+      "length_cm": null,
+      "width_cm": null,
+      "height_cm": null,
+      "volume_m3": null
+    },
+    "pallet": {
+      "cases_per_layer": null,
+      "units_per_layer": null,
+      "layers": null,
+      "cases_per_pallet": null,
+      "units_per_pallet": null,
+      "weight_kg": null
+    },
+    "truck": {
+      "pallets_per_truck": null,
+      "bottles_per_truck": null,
+      "total_weight_kg": null
+    }
+  },
+  "barska plum vodka": {
+    "raw_name": "Barska Plum Vodka",
+    "brand": "Barska",
+    "ean": null,
+    "bottle": {
+      "netto_l": 0.2,
+      "brutto_kg": null,
+      "width_cm": null,
+      "length_cm": null,
+      "height_cm": null
+    },
+    "carton": {
+      "units_per_carton": null,
+      "weight_kg": null,
+      "length_cm": null,
+      "width_cm": null,
+      "height_cm": null,
+      "volume_m3": null
+    },
+    "pallet": {
+      "cases_per_layer": null,
+      "units_per_layer": null,
+      "layers": null,
+      "cases_per_pallet": null,
+      "units_per_pallet": null,
+      "weight_kg": null
+    },
+    "truck": {
+      "pallets_per_truck": null,
+      "bottles_per_truck": null,
+      "total_weight_kg": null
+    }
+  },
+  "barska black currant vodka": {
+    "raw_name": "Barska Black Currant Vodka",
+    "brand": "Barska",
+    "ean": null,
+    "bottle": {
+      "netto_l": 0.2,
+      "brutto_kg": null,
+      "width_cm": null,
+      "length_cm": null,
+      "height_cm": null
+    },
+    "carton": {
+      "units_per_carton": null,
+      "weight_kg": null,
+      "length_cm": null,
+      "width_cm": null,
+      "height_cm": null,
+      "volume_m3": null
+    },
+    "pallet": {
+      "cases_per_layer": null,
+      "units_per_layer": null,
+      "layers": null,
+      "cases_per_pallet": null,
+      "units_per_pallet": null,
+      "weight_kg": null
+    },
+    "truck": {
+      "pallets_per_truck": null,
+      "bottles_per_truck": null,
+      "total_weight_kg": null
+    }
+  },
+  "barska cranberry vodka": {
+    "raw_name": "Barska Cranberry Vodka",
+    "brand": "Barska",
+    "ean": null,
+    "bottle": {
+      "netto_l": 0.2,
+      "brutto_kg": null,
+      "width_cm": null,
+      "length_cm": null,
+      "height_cm": null
+    },
+    "carton": {
+      "units_per_carton": null,
+      "weight_kg": null,
+      "length_cm": null,
+      "width_cm": null,
+      "height_cm": null,
+      "volume_m3": null
+    },
+    "pallet": {
+      "cases_per_layer": null,
+      "units_per_layer": null,
+      "layers": null,
+      "cases_per_pallet": null,
+      "units_per_pallet": null,
+      "weight_kg": null
+    },
+    "truck": {
+      "pallets_per_truck": null,
+      "bottles_per_truck": null,
+      "total_weight_kg": null
+    }
+  },
+  "barska quince vodka": {
+    "raw_name": "Barska Quince Vodka",
+    "brand": "Barska",
+    "ean": null,
+    "bottle": {
+      "netto_l": 0.2,
+      "brutto_kg": null,
+      "width_cm": null,
+      "length_cm": null,
+      "height_cm": null
+    },
+    "carton": {
+      "units_per_carton": null,
+      "weight_kg": null,
+      "length_cm": null,
+      "width_cm": null,
+      "height_cm": null,
+      "volume_m3": null
+    },
+    "pallet": {
+      "cases_per_layer": null,
+      "units_per_layer": null,
+      "layers": null,
+      "cases_per_pallet": null,
+      "units_per_pallet": null,
+      "weight_kg": null
+    },
+    "truck": {
+      "pallets_per_truck": null,
+      "bottles_per_truck": null,
+      "total_weight_kg": null
+    }
+  },
+  "epkeliai cowberry spirit drink": {
+    "raw_name": "Čepkeliai Cowberry Spirit Drink",
+    "brand": "Čepkeliai",
+    "ean": "4770053221443",
+    "bottle": {
+      "netto_l": 0.5,
+      "brutto_kg": 0.9664,
+      "width_cm": 8,
+      "length_cm": 5.7,
+      "height_cm": 25
+    },
+    "carton": {
+      "units_per_carton": 9,
+      "weight_kg": 8.698,
+      "length_cm": 18.1,
+      "width_cm": 25.3,
+      "height_cm": 25.8,
+      "volume_m3": 0.01181
+    },
+    "pallet": {
+      "cases_per_layer": 19,
+      "units_per_layer": 171,
+      "layers": 5,
+      "cases_per_pallet": 95,
+      "units_per_pallet": 855,
+      "weight_kg": 851.31
+    },
+    "truck": {
+      "pallets_per_truck": 27,
+      "bottles_per_truck": 23085,
+      "total_weight_kg": 22985.37
+    }
+  },
+  "epkeliai forest berry spirit drink": {
+    "raw_name": "Čepkeliai Forest Berry Spirit Drink",
+    "brand": "Čepkeliai",
+    "ean": "4770053238847",
+    "bottle": {
+      "netto_l": 0.5,
+      "brutto_kg": 0.9664,
+      "width_cm": 8,
+      "length_cm": 5.7,
+      "height_cm": 25
+    },
+    "carton": {
+      "units_per_carton": 9,
+      "weight_kg": 8.698,
+      "length_cm": 18.1,
+      "width_cm": 25.3,
+      "height_cm": 25.8,
+      "volume_m3": 0.01181
+    },
+    "pallet": {
+      "cases_per_layer": 19,
+      "units_per_layer": 171,
+      "layers": 5,
+      "cases_per_pallet": 95,
+      "units_per_pallet": 855,
+      "weight_kg": 851.31
+    },
+    "truck": {
+      "pallets_per_truck": 26,
+      "bottles_per_truck": 22230,
+      "total_weight_kg": 22134.059999999998
+    }
+  },
+  "epkeliai cranberry spirit drink": {
+    "raw_name": "Čepkeliai Cranberry Spirit Drink",
+    "brand": "Čepkeliai",
+    "ean": "4770053220279",
+    "bottle": {
+      "netto_l": 0.5,
+      "brutto_kg": 0.9664,
+      "width_cm": 8,
+      "length_cm": 5.7,
+      "height_cm": 25
+    },
+    "carton": {
+      "units_per_carton": 9,
+      "weight_kg": 8.698,
+      "length_cm": 18.1,
+      "width_cm": 25.3,
+      "height_cm": 25.8,
+      "volume_m3": 0.01181
+    },
+    "pallet": {
+      "cases_per_layer": 19,
+      "units_per_layer": 171,
+      "layers": 5,
+      "cases_per_pallet": 95,
+      "units_per_pallet": 855,
+      "weight_kg": 851.31
+    },
+    "truck": {
+      "pallets_per_truck": 26,
+      "bottles_per_truck": 22230,
+      "total_weight_kg": 22134.059999999998
+    }
+  }
+}
